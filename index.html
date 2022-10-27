@@ -1,0 +1,283 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <!-- You MUST include jQuery before Fomantic -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.0/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.0/dist/semantic.min.js"></script>
+    <style>
+      /* Hide scrollbar for Chrome, Safari and Opera */
+      .link.step .content {
+        height: 200px;
+        overflow-y: scroll;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+      }
+      .link.step .content::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
+    <title>shinyValidator</title>
+  </head>
+  <body>
+    <div class="ui pointing menu">
+  <a class="item" data-tab="check">Package check</a>
+  <a class="item" data-tab="crash-test">Crash test</a>
+  <a class="item" data-tab="dependencies">Dependencies</a>
+  <a class="item" data-tab="coverage">Coverage</a>
+  <a class="item" data-tab="load-test">Load test</a>
+  <a class="item" data-tab="reactlog">Reactivity</a>
+  <a class="item" data-tab="code-profile">Code profile</a>
+  <div class="right menu">
+    <a class="ui item">rpharma2022test</a>
+    <a class="ui tag label">v: 0.0.0.9000 -- commit: 1163287</a>
+  </div>
+</div>
+    <div class="ui tab" data-tab="check">
+  <div class="ui container" style="margin: auto; width: 85%;">
+    <div class="ui raised tall stacked segment">
+      <a class="ui primary right ribbon label">
+        Project check
+        <i class="question circle icon"></i>
+      </a>
+      <div class="ui mini fluid steps">
+        <div class="link step">
+          <i class="green check icon"></i>
+          <div class="content">
+            <div class="title">Building</div>
+            <div class="description" style="white-space: pre-line;">* installing *source* package ‘rpharma2022test’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (rpharma2022test)
+</div>
+          </div>
+        </div>
+        <div class="link step">
+          <i class="green check icon"></i>
+          <div class="content">
+            <div class="title">Checking</div>
+            <div class="description" style="white-space: pre-line;">
+              <div class="ui blue message">checking dependencies in R code ... NOTE
+Namespace in Imports field not imported from: ‘pkgload’
+  All declared Imports should be used.</div>
+            </div>
+          </div>
+        </div>
+        <div class="link step">
+          <i class="green check icon"></i>
+          <div class="content">
+            <div class="title">Testing</div>
+            <div class="description" style="white-space: pre-line;">
+R version 4.2.1 (2022-06-23) -- "Funny-Looking Kid"
+Copyright (C) 2022 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> # This file is part of the standard setup for testthat.
+> # It is recommended that you do not modify it.
+> #
+> # Where should you do additional test configuration?
+> # Learn more about the roles of various files in:
+> # * https://r-pkgs.org/tests.html
+> # * https://testthat.r-lib.org/reference/test_package.html#special-files
+> 
+> library(testthat)
+> library(rpharma2022test)
+> 
+> test_check("rpharma2022test")
+[ FAIL 0 | WARN 0 | SKIP 0 | PASS 1 ]
+> 
+> proc.time()
+   user  system elapsed 
+  1.273   0.068   1.333 </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="ui tab" data-tab="crash-test">
+  <div class="ui container" style="margin: auto; width: 85%;">
+    <div class="ui raised tall stacked segment">
+      <a class="ui primary right ribbon label">
+        Crash test
+        <i class="question circle icon"></i>
+      </a>
+      <div class="ui equal width grid">
+        <div class="eight wide column">
+          <h2 class="ui header">1-init-crash</h2>
+          <img src="./crash-test/1-init-crash.png" width="100%"/>
+        </div>
+        <div class="eight wide column">
+          <h2 class="ui header">2-gremlins</h2>
+          <img src="./crash-test/2-gremlins.png" width="100%"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    <div class="ui tab" data-tab="dependencies">
+  <div class="ui container" style="margin: auto; width: 85%;">
+    <div class="ui raised tall stacked segment">
+      <a class="ui primary right ribbon label">
+        Dependencies
+        <i class="question circle icon"></i>
+      </a>
+      <h2 class="ui header">Package versions are not subject to any restriction</h2>
+      <div class="ui basic cards">
+        <div class="card grey">
+          <div class="content">
+            <div class="header">config</div>
+            <div class="meta">Current: 0.3.1</div>
+            <div class="description">Package taken from CRAN with hash code: 31d77b09f63550cee9ecb5a08bf76e8f</div>
+          </div>
+        </div>
+        <div class="card grey">
+          <div class="content">
+            <div class="header">golem</div>
+            <div class="meta">Current: 0.3.5</div>
+            <div class="description">Package taken from CRAN with hash code: c4fbd853653f38cccdd009d75abb344c</div>
+          </div>
+        </div>
+        <div class="card grey">
+          <div class="content">
+            <div class="header">pkgload</div>
+            <div class="meta">Current: 1.3.0</div>
+            <div class="description">Package taken from CRAN with hash code: 4b20f937a363c78a5730265c1925f54a</div>
+          </div>
+        </div>
+        <div class="card grey">
+          <div class="content">
+            <div class="header">shiny</div>
+            <div class="meta">Current: 1.7.3</div>
+            <div class="description">Package taken from CRAN with hash code: fe12df67fdb3b1142325cc54f100cc06</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="ui tab" data-tab="coverage">
+  <div class="ui container" style="margin: auto; width: 85%;">
+    <div class="ui raised tall stacked segment">
+      <a class="ui primary right ribbon label">
+        Coverage
+        <i class="question circle icon"></i>
+      </a>
+      <iframe src="./coverage.html" frameborder="0" scrolling="yes" width="100%" height="770px"></iframe>
+    </div>
+  </div>
+</div>
+<div class="ui tab" data-tab="load-test">
+  <div class="ui container" style="margin: auto; width: 85%;">
+    <div class="ui raised tall stacked segment">
+      <a class="ui primary right ribbon label">
+        Load test
+        <i class="question circle icon"></i>
+      </a>
+      <iframe src="./load-test.html" frameborder="0" scrolling="yes" width="100%" height="770px"></iframe>
+    </div>
+  </div>
+</div>
+<div class="ui tab" data-tab="reactlog">
+  <div class="ui container" style="margin: auto; width: 85%;">
+    <div class="ui raised tall stacked segment">
+      <a class="ui primary right ribbon label">
+        Reactivity
+        <i class="question circle icon"></i>
+      </a>
+      <iframe src="./reactlog.html" frameborder="0" scrolling="yes" width="100%" height="770px"></iframe>
+    </div>
+  </div>
+</div>
+<div class="ui tab" data-tab="code-profile">
+  <div class="ui container" style="margin: auto; width: 85%;">
+    <div class="ui raised tall stacked segment">
+      <a class="ui primary right ribbon label">
+        Code profile
+        <i class="question circle icon"></i>
+      </a>
+      <br/>
+      <iframe src="./code-profile.html" frameborder="0" scrolling="yes" width="100%" height="770px"></iframe>
+    </div>
+  </div>
+</div>
+    <div class="ui basic modal">
+      <div class="ui icon header">
+        Welcome to the Shiny App validator
+      </div>
+      <div class="content">
+        <p>Please inspect all sections ...</p>
+      </div>
+      <div class="actions">
+          <div class="ui green ok inverted button">
+              <i class="checkmark icon"></i>
+              ok
+            </div>
+      </div>
+    </div>
+      <script>$('.pointing.menu .item').tab(); // activate navigation
+         $('.ui.basic.modal')
+           .modal({
+               blurring: true
+           })
+           .modal('show');
+           $('[data-tab="check"] .ribbon')
+     .popup({
+       title   : 'Package check',
+       content : 'Package is first built. Any error is shown in case the installation fails. Package is checked for consistency (style, files, ...). Unit tests are run. Overall you want to see all green.'
+     });
+$('[data-tab="crash-test"] .ribbon')
+     .popup({
+       title   : 'Crash test',
+       content : 'Crash test ensures the app starts and takes a snapshot when the app is loaded. Then, the app is manipulated with headless browser and check for alive. Another snapshot is taken.'
+     });
+$('[data-tab="dependencies"] .ribbon')
+     .popup({
+       title   : 'Dependencies',
+       content : 'This returns the R dependencies used by your package in a nicer UI. If you pass r_version and a list of locked packages, you can see if your package is compliant against a locked environment.'
+     });
+$('[data-tab="coverage"] .ribbon')
+     .popup({
+       title   : 'Coverage',
+       content : 'Code coverage shows the amounts of code covered by unit tests. The higher the coverage, the higher the package reliability (assuming relevant unit tests).'
+     });
+$('[data-tab="load-test"] .ribbon')
+     .popup({
+       title   : 'Load test',
+       content : 'Load testing consists of checking whether the app can support multiple simultaneous sessions with reasonable performances. If you see a lot of blue area in the session tab, the app is likely not very well optimized.'
+     });
+$('[data-tab="reactlog"] .ribbon')
+     .popup({
+       title   : 'Reactivity',
+       content : '{reactlog} represents the reactive graph of the Shiny app. It is useful to identify and fix reactivity-related issues.'
+     });
+$('[data-tab="code-profile"] .ribbon')
+     .popup({
+       title   : 'Code profile',
+       content : '{profvis} runs the app and returns the time taken by the R code to finish. The lower the result, the higher the performances. It is useful to identify bottlenecks.'
+     });
+         </script>
+  </body>
+</html>
+
