@@ -38,15 +38,13 @@
 <polyline points='48.63,154.55 282.52,154.55 ' style='stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;' />
 <polyline points='48.63,85.50 282.52,85.50 ' style='stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;' />
 <polyline points='165.58,269.35 165.58,22.49 ' style='stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;' />
-<circle cx='165.58' cy='120.02' r='1.95' style='stroke-width: 0.71; stroke: #333333; fill: #333333;' />
-<circle cx='165.58' cy='137.29' r='1.95' style='stroke-width: 0.71; stroke: #333333; fill: #333333;' />
-<circle cx='165.58' cy='189.07' r='1.95' style='stroke-width: 0.71; stroke: #333333; fill: #333333;' />
-<circle cx='165.58' cy='102.76' r='1.95' style='stroke-width: 0.71; stroke: #333333; fill: #333333;' />
-<circle cx='165.58' cy='120.02' r='1.95' style='stroke-width: 0.71; stroke: #333333; fill: #333333;' />
-<circle cx='165.58' cy='171.81' r='1.95' style='stroke-width: 0.71; stroke: #333333; fill: #333333;' />
-<circle cx='165.58' cy='102.76' r='1.95' style='stroke-width: 0.71; stroke: #333333; fill: #333333;' />
+<circle cx='165.58' cy='154.55' r='1.95' style='stroke-width: 0.71; stroke: #333333; fill: #333333;' />
+<circle cx='165.58' cy='154.55' r='1.95' style='stroke-width: 0.71; stroke: #333333; fill: #333333;' />
 <circle cx='165.58' cy='33.71' r='1.95' style='stroke-width: 0.71; stroke: #333333; fill: #333333;' />
-<circle cx='165.58' cy='85.50' r='1.95' style='stroke-width: 0.71; stroke: #333333; fill: #333333;' />
+<circle cx='165.58' cy='189.07' r='1.95' style='stroke-width: 0.71; stroke: #333333; fill: #333333;' />
+<circle cx='165.58' cy='189.07' r='1.95' style='stroke-width: 0.71; stroke: #333333; fill: #333333;' />
+<circle cx='165.58' cy='171.81' r='1.95' style='stroke-width: 0.71; stroke: #333333; fill: #333333;' />
+<circle cx='165.58' cy='189.07' r='1.95' style='stroke-width: 0.71; stroke: #333333; fill: #333333;' />
 <line x1='165.58' y1='223.60' x2='165.58' y2='206.34' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
 <line x1='165.58' y1='240.86' x2='165.58' y2='258.12' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
 <polygon points='92.49,223.60 92.49,240.86 238.67,240.86 238.67,223.60 92.49,223.60 ' style='stroke-width: 1.07; stroke: #333333; fill: #7FC97F;' />
