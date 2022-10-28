@@ -1498,8 +1498,8 @@
       "RemoteRepo": "shinyValidator",
       "RemoteUsername": "Novartis",
       "RemoteRef": "HEAD",
-      "RemoteSha": "5945a946a4026036a4729ee3d19a66c47cc9fbb4",
-      "Hash": "9a1ba4e8f9a8ded83bbd05c2fb3498c9",
+      "RemoteSha": "a85e3d4968f0b9b9dcb8c34d638a942beafa340f",
+      "Hash": "3d9469077b3e35170f5ea81e854fb045",
       "Requirements": [
         "callr",
         "covr",
