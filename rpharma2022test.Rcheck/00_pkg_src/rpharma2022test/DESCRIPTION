@@ -8,13 +8,13 @@ Authors@R:
            email = "your@email.com")
 Description: What the package does (one paragraph).
 License: MIT + file LICENSE
-Imports: config (>= 0.3.1), golem (>= 0.3.5), pkgload, shiny (>= 1.7.3)
+Imports: config (>= 0.3.1), golem (>= 0.3.5), pkgload, shiny
 Encoding: UTF-8
 RoxygenNote: 7.2.1
 Suggests: DT, lubridate, rmarkdown, shinyValidator, testthat, vdiffr,
         withr
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2022-10-28 15:13:15 UTC; runner
+Packaged: 2022-10-28 15:22:46 UTC; runner
 Author: firstname lastname [aut, cre]
 Maintainer: firstname lastname <your@email.com>
