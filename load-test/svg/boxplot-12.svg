@@ -39,10 +39,13 @@
 <polyline points='48.63,33.71 282.52,33.71 ' style='stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;' />
 <polyline points='165.58,269.35 165.58,22.49 ' style='stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;' />
 <circle cx='165.58' cy='33.71' r='1.95' style='stroke-width: 0.71; stroke: #333333; fill: #333333;' />
+<circle cx='165.58' cy='33.71' r='1.95' style='stroke-width: 0.71; stroke: #333333; fill: #333333;' />
+<circle cx='165.58' cy='33.71' r='1.95' style='stroke-width: 0.71; stroke: #333333; fill: #333333;' />
+<circle cx='165.58' cy='33.71' r='1.95' style='stroke-width: 0.71; stroke: #333333; fill: #333333;' />
 <line x1='165.58' y1='183.32' x2='165.58' y2='108.52' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
 <line x1='165.58' y1='258.12' x2='165.58' y2='258.12' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
 <polygon points='92.49,183.32 92.49,258.12 238.67,258.12 238.67,183.32 92.49,183.32 ' style='stroke-width: 1.07; stroke: #333333; fill: #7FC97F;' />
-<line x1='92.49' y1='258.12' x2='238.67' y2='258.12' style='stroke-width: 2.13; stroke: #333333; stroke-linecap: butt;' />
+<line x1='92.49' y1='183.32' x2='238.67' y2='183.32' style='stroke-width: 2.13; stroke: #333333; stroke-linecap: butt;' />
 </g>
 <g clip-path='url(#cpMC4wMHwyODguMDB8MC4wMHwyODguMDA=)'>
 </g>
