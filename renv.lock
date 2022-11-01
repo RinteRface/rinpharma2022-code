@@ -4,7 +4,7 @@
     "Repositories": [
       {
         "Name": "CRAN",
-        "URL": "https://packagemanager.rstudio.com/all/latest"
+        "URL": "https://cran.rstudio.com"
       }
     ]
   },
@@ -1490,7 +1490,7 @@
     },
     "shinyValidator": {
       "Package": "shinyValidator",
-      "Version": "0.0.1.9000",
+      "Version": "0.0.1.9001",
       "Source": "GitHub",
       "Remotes": "rstudio/shinytest2, moodymudskipper/flow",
       "RemoteType": "github",
@@ -1498,8 +1498,8 @@
       "RemoteRepo": "shinyValidator",
       "RemoteUsername": "Novartis",
       "RemoteRef": "HEAD",
-      "RemoteSha": "a85e3d4968f0b9b9dcb8c34d638a942beafa340f",
-      "Hash": "3d9469077b3e35170f5ea81e854fb045",
+      "RemoteSha": "d860d1c913816ef24832aadf3b4497f1147ccd98",
+      "Hash": "75405e5dd4c9c71a84daa39923a87246",
       "Requirements": [
         "callr",
         "covr",
